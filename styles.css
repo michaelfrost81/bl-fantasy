@@ -14,3 +14,15 @@
 .settingsList span{color:#9ca5b3;font-size:12px;line-height:1.4}
 .full{width:100%}
 @media(max-width:390px){.filterGrid{grid-template-columns:1fr}}
+
+.marketToggle{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0}
+.marketToggle button{background:#151922;border:1px solid #2b313d;color:#9ca5b3}
+.marketToggle button.active{background:#f47721;color:#fff;border-color:#f47721}
+.coachCard{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:#151922;border:1px solid #2b313d;border-radius:16px;padding:13px;margin-bottom:9px}
+.coachIcon{width:42px;height:42px;border-radius:50%;background:#0e1117;border:1px solid #2b313d;display:grid;place-items:center;font-size:20px}
+.coachCard span{display:block;color:#9ca5b3;font-size:12px;margin-top:3px}
+.coachCard strong{color:#f47721}
+.coachPick{text-align:right}
+.coachPick strong{display:block;margin-bottom:6px}
+.coachPick .selected{background:#2bd17e;color:#09110d}
+.coachList{margin-top:4px}
