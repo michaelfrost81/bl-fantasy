@@ -169,9 +169,35 @@ const rawPlayers=[
 {name:"Gustav Suhr-Jessen",number:null,team:"BC Copenhagen",pos:"F",price:9.5,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
 {name:"Rasmus Secher Winther",number:null,team:"BC Copenhagen",pos:"F",price:7.5,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]}
 ];
+const verifiedGameData={
+"Kaden Sand":{gp:1,min:25.67,pts:31,reb:6,ast:1,stl:2,blk:1,to:4,fgm:11,fga:15,tpm:2,tpa:4,ftm:7,fta:9,statsVerified:true},
+"Adama Darboe":{gp:1,min:25.02,pts:13,reb:2,ast:4,stl:1,blk:0,to:3,fgm:4,fga:6,tpm:3,tpa:5,ftm:2,fta:2,statsVerified:true},
+"Dibaji Walker":{gp:1,min:24.90,pts:12,reb:4,ast:4,stl:1,blk:5,to:3,fgm:2,fga:7,tpm:1,tpa:1,ftm:7,fta:7,statsVerified:true},
+"Sharif Barfi":{gp:1,min:19.03,pts:16,reb:1,ast:1,stl:0,blk:1,to:0,fgm:6,fga:7,tpm:3,tpa:4,ftm:1,fta:4,statsVerified:true},
+"Kuluel Mading":{gp:1,min:15.25,pts:7,reb:4,ast:1,stl:1,blk:1,to:1,fgm:3,fga:6,tpm:0,tpa:2,ftm:1,fta:2,statsVerified:true},
+"Jusaun Holt":{gp:1,min:20.52,pts:3,reb:4,ast:2,stl:2,blk:1,to:2,fgm:1,fga:5,tpm:1,tpa:3,ftm:0,fta:0,statsVerified:true},
+"Anton Lønstrup Hansen":{gp:1,min:14.90,pts:4,reb:1,ast:1,stl:1,blk:0,to:0,fgm:1,fga:2,tpm:0,tpa:1,ftm:2,fta:2,statsVerified:true},
+"Elliot Holm":{gp:1,min:4.90,pts:0,reb:2,ast:1,stl:0,blk:0,to:0,fgm:0,fga:2,tpm:0,tpa:1,ftm:0,fta:0,statsVerified:true},
+"Oscar Alm":{gp:1,min:14.25,pts:4,reb:4,ast:0,stl:0,blk:0,to:1,fgm:2,fga:3,tpm:0,tpa:1,ftm:0,fta:0,statsVerified:true},
+"Morten Bülow":{gp:1,min:10.20,pts:6,reb:2,ast:5,stl:0,blk:0,to:0,fgm:3,fga:4,tpm:0,tpa:0,ftm:0,fta:0,statsVerified:true},
+"Patrick Renane":{gp:1,min:14.70,pts:2,reb:1,ast:0,stl:0,blk:0,to:1,fgm:1,fga:4,tpm:0,tpa:0,ftm:0,fta:0,statsVerified:true},
+"Bakir Serdarevic":{gp:1,min:10.67,pts:2,reb:0,ast:1,stl:0,blk:0,to:0,fgm:1,fga:3,tpm:0,tpa:2,ftm:0,fta:0,statsVerified:true},
+"Caden Fry":{gp:1,min:35.55,pts:28,reb:14,ast:2,stl:0,blk:0,to:5,fgm:9,fga:20,tpm:3,tpa:5,ftm:7,fta:9,statsVerified:true},
+"Bryceson Burns":{gp:1,min:30.08,pts:15,reb:5,ast:1,stl:1,blk:1,to:1,fgm:6,fga:13,tpm:1,tpa:5,ftm:2,fta:2,statsVerified:true},
+"August Heming":{gp:1,min:26.50,pts:8,reb:2,ast:2,stl:2,blk:0,to:3,fgm:3,fga:8,tpm:0,tpa:1,ftm:2,fta:2,statsVerified:true},
+"Malthe Aabling":{gp:1,min:14.82,pts:2,reb:3,ast:0,stl:1,blk:0,to:3,fgm:0,fga:1,tpm:0,tpa:0,ftm:2,fta:2,statsVerified:true},
+"Anders Jellesmark":{gp:1,min:29.55,pts:18,reb:5,ast:4,stl:0,blk:0,to:2,fgm:6,fga:15,tpm:1,tpa:5,ftm:5,fta:6,statsVerified:true},
+"Oskar Vanner":{gp:1,min:9.13,pts:0,reb:0,ast:1,stl:1,blk:0,to:1,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,statsVerified:true},
+"Otto Jernberg Sørensen":{gp:1,min:10.32,pts:0,reb:2,ast:0,stl:1,blk:0,to:1,fgm:0,fga:2,tpm:0,tpa:0,ftm:0,fta:0,statsVerified:true},
+"Oskar Harring Østoft":{gp:1,min:18.38,pts:13,reb:3,ast:0,stl:2,blk:1,to:1,fgm:6,fga:12,tpm:0,tpa:3,ftm:1,fta:2,statsVerified:true},
+"Julius Aabling":{gp:1,min:12.40,pts:0,reb:2,ast:0,stl:3,blk:0,to:1,fgm:0,fga:3,tpm:0,tpa:1,ftm:0,fta:0,statsVerified:true},
+"Karl Heming":{gp:1,min:10.38,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:1,tpm:0,tpa:1,ftm:0,fta:0,statsVerified:true},
+"Sebastian Reumert":{gp:1,min:2.88,pts:0,reb:1,ast:0,stl:0,blk:0,to:0,fgm:0,fga:1,tpm:0,tpa:1,ftm:0,fta:0,statsVerified:true}
+};
 function pct(m,a){return a?100*m/a:0}
 function shootingBonus(p){if(p.statsVerified===false)return 0;let b=0,fg=pct(p.fgm,p.fga),tp=pct(p.tpm,p.tpa),ft=pct(p.ftm,p.fta);if(p.fga>=5)b+=fg>=60?4:fg>=50?2:fg<35?-2:0;if(p.tpa>=4)b+=tp>=50?3:tp>=40?1:tp<25?-2:0;if(p.fta>=4)b+=ft>=90?2:ft<60?-1:0;return b}
 function fantasy(p){let cats=[p.pts,p.reb,p.ast,p.stl,p.blk].filter(x=>x>=10).length;return +(p.pts+p.reb*1.2+p.ast*1.5+p.stl*3+p.blk*3-p.to+shootingBonus(p)+(cats>=3?7:cats>=2?3:0)).toFixed(1)}
+rawPlayers.forEach(p=>{let d=verifiedGameData[p.name];if(d){Object.assign(p,d);let fp=fantasy(p);p.form=[fp];p.games=[{label:"17. sep",...d,fp}]}});
 rawPlayers.forEach(p=>{if(typeof p.statsVerified==="boolean"||p.statsVerified===null)return;if(!p.pts&&!p.reb&&!p.ast&&!p.stl&&!p.blk)p.statsVerified=null});
 const seasonStore=JSON.parse(localStorage.getItem("blSeasonStats")||"{}");
 function hydrateSeason(p){let s=seasonStore[p.name];if(!s)return p;return {...p,...s,statsVerified:s.gp>0?s.statsVerified!==false:null}}
