@@ -90,3 +90,10 @@
 .leaderRow{display:grid;grid-template-columns:24px 1fr auto;gap:8px;align-items:center;padding:8px 2px;border-top:1px solid #242a34}
 .leaderRow:first-of-type{border-top:0}.leaderRow .rank{color:#9ca5b3;font-weight:800;text-align:center}
 .leaderRow small{display:block;color:#9ca5b3;font-size:10px;margin-top:2px}.leaderRow strong{color:#f47721}
+
+.pageHead{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}.pageHead h2{margin:0}.pageHead span{display:block;color:#9ca5b3;font-size:11px;margin-top:3px}
+.coverageRing{min-width:62px;height:62px;border-radius:50%;border:5px solid #f47721;display:grid;place-items:center;font-size:12px;font-weight:800}
+.dataProgress{height:5px;background:#242a34;border-radius:99px;overflow:hidden;margin:-8px 0 14px}.dataProgress>div{height:100%;background:#f47721;border-radius:99px}
+.dashboardGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:0 0 18px}.dashboardGrid>div{background:#151922;border:1px solid #2b313d;border-radius:12px;padding:10px 6px;text-align:center}.dashboardGrid b{display:block;font-size:16px}.dashboardGrid span{display:block;color:#9ca5b3;font-size:9px;margin-top:3px}
+.gameList{display:grid;gap:8px;margin-bottom:18px}.gameCard{display:grid;grid-template-columns:1fr auto;gap:12px;background:#151922;border:1px solid #2b313d;border-radius:14px;padding:12px}.gameCard>div:first-child{display:grid;gap:5px}.gameCard>div:last-child{text-align:right}.gameCard span{display:block;color:#9ca5b3;font-size:10px;margin-bottom:5px}.gameCard strong{color:#f47721;font-size:17px}
+.marketNotice{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#0e1117;border:1px solid #2b313d;border-radius:12px;padding:10px 12px;margin:10px 0}.marketNotice b{font-size:12px}.marketNotice span{color:#9ca5b3;font-size:10px;text-align:right;max-width:65%}
