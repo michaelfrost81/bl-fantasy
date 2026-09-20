@@ -1,9 +1,17 @@
 const rawPlayers=[
-{name:"Amare Miller",number:null,team:"Svendborg Rabbits",pos:"PF",price:12.5,pts:16,reb:5,ast:0,stl:0,blk:2,to:1,fgm:null,fga:null,tpm:null,tpa:null,ftm:null,fta:null,form:[]},
-{name:"Kean Dada",number:null,team:"Svendborg Rabbits",pos:"SF",price:10,pts:14,reb:3,ast:2,stl:0,blk:0,to:1,fgm:null,fga:null,tpm:null,tpa:null,ftm:null,fta:null,form:[]},
-{name:"Darius Maddox",number:null,team:"Svendborg Rabbits",pos:"SG",price:11.5,pts:10,reb:4,ast:0,stl:1,blk:0,to:1,fgm:null,fga:null,tpm:null,tpa:null,ftm:null,fta:null,form:[]},
-{name:"Adam Heede-Andersen",number:null,team:"Svendborg Rabbits",pos:"PG",price:9,pts:3,reb:1,ast:8,stl:2,blk:0,to:3,fgm:null,fga:null,tpm:null,tpa:null,ftm:null,fta:null,form:[]},
-{name:"Olamide Pedersen",number:null,team:"Svendborg Rabbits",pos:"C",price:8.5,pts:2,reb:4,ast:1,stl:0,blk:2,to:1,fgm:null,fga:null,tpm:null,tpa:null,ftm:null,fta:null,form:[]},
+{name:"Amare Miller",number:null,team:"Svendborg Rabbits",pos:"PF",price:12.5,pts:16,reb:5,ast:0,stl:0,blk:2,to:1,fgm:8,fga:12,tpm:0,tpa:2,ftm:0,fta:0,form:[25.4],statsVerified:true},
+{name:"Kean Dada",number:null,team:"Svendborg Rabbits",pos:"SF",price:10,pts:14,reb:3,ast:2,stl:0,blk:0,to:1,fgm:4,fga:6,tpm:2,tpa:4,ftm:4,fta:5,form:[21.6],statsVerified:true},
+{name:"Darius Maddox",number:null,team:"Svendborg Rabbits",pos:"SG",price:11.5,pts:10,reb:4,ast:0,stl:1,blk:0,to:1,fgm:4,fga:9,tpm:0,tpa:0,ftm:2,fta:2,form:[16.8],statsVerified:true},
+{name:"Adam Heede-Andersen",number:null,team:"Svendborg Rabbits",pos:"PG",price:9,pts:3,reb:1,ast:8,stl:2,blk:0,to:3,fgm:1,fga:5,tpm:0,tpa:1,ftm:1,fta:2,form:[19.2],statsVerified:true},
+{name:"Olamide Pedersen",number:null,team:"Svendborg Rabbits",pos:"C",price:8.5,pts:2,reb:4,ast:1,stl:0,blk:2,to:1,fgm:1,fga:3,tpm:0,tpa:2,ftm:0,fta:0,form:[13.3],statsVerified:true},
+{name:"Balsa Veljic",number:18,team:"Svendborg Rabbits",pos:"G",price:8.5,pts:2,reb:0,ast:0,stl:0,blk:0,to:4,fgm:1,fga:8,tpm:0,tpa:4,ftm:0,fta:0,form:[-4],statsVerified:true},
+{name:"Gabriel Vogel",number:8,team:"Svendborg Rabbits",pos:"F",price:8.5,pts:10,reb:5,ast:0,stl:0,blk:0,to:0,fgm:4,fga:8,tpm:0,tpa:1,ftm:2,fta:4,form:[16],statsVerified:true},
+{name:"David Fischer",number:9,team:"Svendborg Rabbits",pos:"F",price:8,pts:2,reb:10,ast:2,stl:0,blk:0,to:1,fgm:1,fga:4,tpm:0,tpa:0,ftm:0,fta:4,form:[16],statsVerified:true},
+{name:"Magnus Darling Sørensen",number:7,team:"Svendborg Rabbits",pos:"G",price:7.5,pts:9,reb:0,ast:1,stl:0,blk:0,to:0,fgm:3,fga:5,tpm:1,tpa:3,ftm:2,fta:2,form:[10.5],statsVerified:true},
+{name:"William Jelle",number:49,team:"Svendborg Rabbits",pos:"G",price:6,pts:2,reb:0,ast:0,stl:0,blk:0,to:1,fgm:1,fga:1,tpm:0,tpa:0,ftm:0,fta:0,form:[1],statsVerified:true},
+{name:"Albert Jespersen",number:null,team:"Svendborg Rabbits",pos:"G",price:5.5,pts:0,reb:0,ast:1,stl:1,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[4.5],statsVerified:true},
+{name:"Silas Oriane",number:null,team:"Svendborg Rabbits",pos:"SG",price:8.5,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[],statsVerified:null},
+{name:"Tyree Campbell",number:null,team:"Svendborg Rabbits",pos:"G/F",price:10.5,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[],statsVerified:null},
 {name:"Oscar Jørgensen",number:10,team:"Bakken Bears",pos:"G",price:12,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
 {name:"Ian DuBose",number:11,team:"Bakken Bears",pos:"G",price:12,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
 {name:"Shaquille Rombley",number:25,team:"Bakken Bears",pos:"C",price:11,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
@@ -164,7 +172,7 @@ const rawPlayers=[
 function pct(m,a){return a?100*m/a:0}
 function shootingBonus(p){if(p.statsVerified===false)return 0;let b=0,fg=pct(p.fgm,p.fga),tp=pct(p.tpm,p.tpa),ft=pct(p.ftm,p.fta);if(p.fga>=5)b+=fg>=60?4:fg>=50?2:fg<35?-2:0;if(p.tpa>=4)b+=tp>=50?3:tp>=40?1:tp<25?-2:0;if(p.fta>=4)b+=ft>=90?2:ft<60?-1:0;return b}
 function fantasy(p){let cats=[p.pts,p.reb,p.ast,p.stl,p.blk].filter(x=>x>=10).length;return +(p.pts+p.reb*1.2+p.ast*1.5+p.stl*3+p.blk*3-p.to+shootingBonus(p)+(cats>=3?7:cats>=2?3:0)).toFixed(1)}
-rawPlayers.forEach(p=>{if(p.team==="Svendborg Rabbits")p.statsVerified=false;else if(!p.pts&&!p.reb&&!p.ast&&!p.stl&&!p.blk)p.statsVerified=null});
+rawPlayers.forEach(p=>{if(typeof p.statsVerified==="boolean"||p.statsVerified===null)return;if(!p.pts&&!p.reb&&!p.ast&&!p.stl&&!p.blk)p.statsVerified=null});
 const players=[...new Map(rawPlayers.map(p=>[p.name,{...p,fp:fantasy(p)}])).values()];let tab=localStorage.getItem("blTab")||"home",selected=null,query="",pos="ALL",teamFilter="ALL",dataFilter="ALL",affordableOnly=false,settingsOpen=false,sortMode=localStorage.getItem("blSort")||"price";let squad=JSON.parse(localStorage.getItem("blSquad")||"[]"),captain=localStorage.getItem("blCaptain")||"",freeTransfers=+(localStorage.getItem("blFreeTransfers")||2),transferLog=JSON.parse(localStorage.getItem("blTransferLog")||"[]"),league=JSON.parse(localStorage.getItem("blLeague")||"null");
 function teamCount(){return new Set(players.map(p=>p.team)).size}
 function squadPlayers(){return squad.map(n=>players.find(p=>p.name===n)).filter(Boolean)}
