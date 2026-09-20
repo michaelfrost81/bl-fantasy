@@ -173,7 +173,11 @@ function pct(m,a){return a?100*m/a:0}
 function shootingBonus(p){if(p.statsVerified===false)return 0;let b=0,fg=pct(p.fgm,p.fga),tp=pct(p.tpm,p.tpa),ft=pct(p.ftm,p.fta);if(p.fga>=5)b+=fg>=60?4:fg>=50?2:fg<35?-2:0;if(p.tpa>=4)b+=tp>=50?3:tp>=40?1:tp<25?-2:0;if(p.fta>=4)b+=ft>=90?2:ft<60?-1:0;return b}
 function fantasy(p){let cats=[p.pts,p.reb,p.ast,p.stl,p.blk].filter(x=>x>=10).length;return +(p.pts+p.reb*1.2+p.ast*1.5+p.stl*3+p.blk*3-p.to+shootingBonus(p)+(cats>=3?7:cats>=2?3:0)).toFixed(1)}
 rawPlayers.forEach(p=>{if(typeof p.statsVerified==="boolean"||p.statsVerified===null)return;if(!p.pts&&!p.reb&&!p.ast&&!p.stl&&!p.blk)p.statsVerified=null});
-const players=[...new Map(rawPlayers.map(p=>[p.name,{...p,fp:fantasy(p)}])).values()];
+const seasonStore=JSON.parse(localStorage.getItem("blSeasonStats")||"{}");
+function hydrateSeason(p){let s=seasonStore[p.name];if(!s)return p;return {...p,...s,statsVerified:s.gp>0?s.statsVerified!==false:null}}
+const players=[...new Map(rawPlayers.map(p=>{let h=hydrateSeason(p);return[p.name,{...h,fp:fantasy(h)}]})).values()];
+function importSeasonData(data){if(!data||!Array.isArray(data.players))throw new Error("Ugyldigt dataformat");data.players.forEach(x=>{if(!x.name)return;seasonStore[x.name]={...seasonStore[x.name],...x};});localStorage.setItem("blSeasonStats",JSON.stringify(seasonStore));location.reload()}
+function exportSeasonData(){return JSON.stringify({updatedAt:new Date().toISOString(),players:players.map(p=>({name:p.name,team:p.team,gp:gamesPlayed(p),min:p.min||0,pts:p.pts||0,reb:p.reb||0,ast:p.ast||0,stl:p.stl||0,blk:p.blk||0,to:p.to||0,fgm:p.fgm||0,fga:p.fga||0,tpm:p.tpm||0,tpa:p.tpa||0,ftm:p.ftm||0,fta:p.fta||0,statsVerified:p.statsVerified}))},null,2)}
 const coaches=[
 {name:"Mads Andersen",team:"Svendborg Rabbits",fp:0},
 {name:"Skyler Bowlin",team:"Bakken Bears",fp:null},
