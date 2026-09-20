@@ -35,3 +35,18 @@
 .lockTeamBtn{width:100%;margin:0 0 16px}
 .lockedBanner{margin:0 0 16px;padding:12px 14px;border:1px solid #2bd17e55;border-radius:14px;background:#2bd17e10;color:#2bd17e;font-weight:800;text-align:center}
 .danger{margin-top:9px;background:#3a171a;color:#ff8d93}
+
+.transferStatus{display:flex;justify-content:space-between;gap:10px;margin:-2px 0 12px;padding:10px 12px;border-radius:12px;background:#0e1117;border:1px solid #2b313d;font-size:12px;color:#9ca5b3}
+.transferStatus b{color:#f7f5f1}
+.squadActions{display:flex;gap:6px;align-items:center}
+.starterOn{background:#2bd17e;color:#09110d}
+.roundHistory{display:grid;gap:8px;margin-bottom:16px}
+.roundHistory>div{display:flex;justify-content:space-between;gap:12px;background:#151922;border:1px solid #2b313d;border-radius:13px;padding:11px 12px}
+.roundHistory small{display:block;color:#9ca5b3;margin-top:3px}
+.roundHistory b{color:#f47721}
+.profileStats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0}
+.profileStats>div{background:#0e1117;border:1px solid #2b313d;border-radius:12px;padding:10px;text-align:center}
+.profileStats span{display:block;color:#9ca5b3;font-size:11px;margin-bottom:4px}
+.profileStats b{font-size:15px}
+.coachRules{background:#151922;border:1px solid #2b313d;border-radius:14px;padding:12px;margin-bottom:12px}
+.coachRules b{display:block;margin-bottom:5px}.coachRules span{color:#9ca5b3;font-size:12px;line-height:1.45}
