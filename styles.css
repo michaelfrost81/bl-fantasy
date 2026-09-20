@@ -68,3 +68,7 @@
 .recentGames>div:not(.insight){display:grid;grid-template-columns:1fr auto;gap:2px 10px;background:#0e1117;border:1px solid #2b313d;border-radius:11px;padding:9px 11px}
 .recentGames small{grid-column:1/-1;color:#9ca5b3}
 .recentGames b{color:#f47721}
+
+.sheetNav{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;margin:-8px -2px 10px;padding:8px 0;background:#151922}
+.backBtn{background:#0e1117;border:1px solid #2b313d;color:#f7f5f1;padding:9px 12px;border-radius:12px;font-weight:700}
+.sheetNav .close{position:static;flex:0 0 auto}
