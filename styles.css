@@ -26,3 +26,12 @@
 .coachPick strong{display:block;margin-bottom:6px}
 .coachPick .selected{background:#2bd17e;color:#09110d}
 .coachList{margin-top:4px}
+
+.roundBreakdown{display:grid;gap:7px;background:#151922;border:1px solid #2b313d;border-radius:16px;padding:12px 14px;margin-bottom:12px}
+.roundBreakdown>div{display:flex;justify-content:space-between;gap:12px;padding:5px 0;color:#9ca5b3}
+.roundBreakdown b{color:#f7f5f1}
+.roundBreakdown .total{border-top:1px solid #2b313d;margin-top:3px;padding-top:10px}
+.roundBreakdown .total b{color:#f47721;font-size:18px}
+.lockTeamBtn{width:100%;margin:0 0 16px}
+.lockedBanner{margin:0 0 16px;padding:12px 14px;border:1px solid #2bd17e55;border-radius:14px;background:#2bd17e10;color:#2bd17e;font-weight:800;text-align:center}
+.danger{margin-top:9px;background:#3a171a;color:#ff8d93}
