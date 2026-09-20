@@ -50,3 +50,5 @@
 .profileStats b{font-size:15px}
 .coachRules{background:#151922;border:1px solid #2b313d;border-radius:14px;padding:12px;margin-bottom:12px}
 .coachRules b{display:block;margin-bottom:5px}.coachRules span{color:#9ca5b3;font-size:12px;line-height:1.45}
+
+.sectionHint{font-size:11px;color:#f47721;font-weight:700;margin-left:5px}
