@@ -59,3 +59,12 @@
 .avgStats b{display:block;margin-top:4px;font-size:17px}
 .seasonLabel{color:#9ca5b3;font-size:12px;text-align:center;margin-top:-8px}
 .bigfp small,.fp small{font-size:10px;color:#9ca5b3;font-weight:600}
+
+.shootingAverages{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:0 0 16px}
+.shootingAverages>div{background:#151922;border:1px solid #2b313d;border-radius:11px;padding:9px 5px;text-align:center}
+.shootingAverages span{display:block;color:#9ca5b3;font-size:9px;font-weight:800}
+.shootingAverages b{display:block;margin-top:4px;font-size:13px}
+.recentGames{display:grid;gap:7px;margin:8px 0 16px}
+.recentGames>div:not(.insight){display:grid;grid-template-columns:1fr auto;gap:2px 10px;background:#0e1117;border:1px solid #2b313d;border-radius:11px;padding:9px 11px}
+.recentGames small{grid-column:1/-1;color:#9ca5b3}
+.recentGames b{color:#f47721}
