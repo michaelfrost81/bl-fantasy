@@ -112,3 +112,10 @@
 .nextRoundGrid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:18px}.nextPlayer{display:flex;justify-content:space-between;gap:6px;align-items:center;background:#151922;border:1px solid #2b313d;border-radius:12px;padding:9px}.nextPlayer b{display:block;font-size:11px}.nextPlayer span{display:block;color:#9ca5b3;font-size:8px;margin-top:3px}.nextPlayer em{font-style:normal;font-size:8px;font-weight:800;border-radius:999px;padding:4px 6px}.nextPlayer em.gunstig{color:#2bd17e;background:#10251c}.nextPlayer em.neutral{color:#f7f5f1;background:#242a34}.nextPlayer em.svær{color:#ff7d7d;background:#2b171a}.nextPlayer em.afventer{color:#9ca5b3}
 .nextOpponent{display:grid;grid-template-columns:1fr auto;gap:2px 8px;background:#0e1117;border:1px solid #2b313d;border-radius:11px;padding:9px 10px;margin:10px 0}.nextOpponent span{color:#9ca5b3;font-size:9px}.nextOpponent b{font-size:11px}.nextOpponent em{grid-column:2;font-style:normal;color:#f47721;font-size:9px;text-align:right}
 .marketLegend{display:flex;gap:6px;overflow-x:auto;margin:8px 0}.marketLegend span{flex:0 0 auto;background:#0e1117;border:1px solid #2b313d;border-radius:999px;padding:5px 8px;color:#9ca5b3;font-size:9px}
+
+.teamLogo,.gameLogo,.standingLogo,.coachLogo,.avatarLogo,.profileLogo{object-fit:contain;display:inline-block}
+.avatarLogo{width:27px;height:27px}.miniAvatar:has(.avatarLogo){display:flex;flex-direction:column;gap:1px;height:45px}.miniAvatar:has(.avatarLogo) span{font-size:8px}
+.profileClub{display:flex;align-items:center;gap:12px}.profileClub h2{margin:0 0 3px}.profileLogo{width:52px;height:52px;background:#f5f5f5;border-radius:12px;padding:4px}
+.gameCard b{display:flex;align-items:center;gap:6px}.gameLogo{width:20px;height:20px;background:#f5f5f5;border-radius:5px;padding:2px}
+.standings b{display:flex;align-items:center;gap:5px}.standingLogo{width:18px;height:18px;background:#f5f5f5;border-radius:4px;padding:1px;flex:0 0 auto}
+.coachLogo{width:34px;height:34px;background:#f5f5f5;border-radius:8px;padding:3px}
