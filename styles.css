@@ -102,3 +102,5 @@
 
 .qualityGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0 12px}.qualityGrid>div{background:#151922;border:1px solid #2b313d;border-radius:12px;text-align:center;padding:10px 4px}.qualityGrid b{display:block;font-size:18px}.qualityGrid span{font-size:9px;color:#9ca5b3}
 .scoreKey{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 16px}.scoreKey span{font-size:10px;font-weight:700;background:#0e1117;border:1px solid #2b313d;border-radius:999px;padding:5px 8px}
+
+.standings{background:#151922;border:1px solid #2b313d;border-radius:14px;overflow:hidden;margin-bottom:18px}.standings>div{display:grid;grid-template-columns:24px 1fr 24px 24px 24px 42px;gap:5px;align-items:center;padding:8px 9px;border-top:1px solid #242a34;font-size:10px}.standings>div:first-child{border-top:0}.standings .standingHead{color:#9ca5b3;text-transform:uppercase;font-size:8px}.standings b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.standings span:not(:nth-child(2)){text-align:center}
