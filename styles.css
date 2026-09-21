@@ -119,3 +119,5 @@
 .gameCard b{display:flex;align-items:center;gap:6px}.gameLogo{width:20px;height:20px;background:#f5f5f5;border-radius:5px;padding:2px}
 .standings b{display:flex;align-items:center;gap:5px}.standingLogo{width:18px;height:18px;background:#f5f5f5;border-radius:4px;padding:1px;flex:0 0 auto}
 .coachLogo{width:34px;height:34px;background:#f5f5f5;border-radius:8px;padding:3px}
+
+.court .player{cursor:pointer}.courtLogo{width:34px;height:34px;object-fit:contain;background:#f5f5f5;border-radius:50%;padding:3px;display:block}.court .avatar{height:48px;width:48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0}.court .avatar small{font-size:7px;line-height:8px;margin-top:-1px;background:#151922;border-radius:6px;padding:1px 3px}.settingsList+button{margin-top:10px}
