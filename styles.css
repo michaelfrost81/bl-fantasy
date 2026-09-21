@@ -99,3 +99,6 @@
 .marketNotice{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#0e1117;border:1px solid #2b313d;border-radius:12px;padding:10px 12px;margin:10px 0}.marketNotice b{font-size:12px}.marketNotice span{color:#9ca5b3;font-size:10px;text-align:right;max-width:65%}
 
 .profileNote{font-size:11px;line-height:1.45;color:#9ca5b3;background:#0e1117;border:1px solid #2b313d;border-radius:11px;padding:9px 10px;margin:-7px 0 16px}
+
+.qualityGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0 12px}.qualityGrid>div{background:#151922;border:1px solid #2b313d;border-radius:12px;text-align:center;padding:10px 4px}.qualityGrid b{display:block;font-size:18px}.qualityGrid span{font-size:9px;color:#9ca5b3}
+.scoreKey{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 16px}.scoreKey span{font-size:10px;font-weight:700;background:#0e1117;border:1px solid #2b313d;border-radius:999px;padding:5px 8px}
