@@ -133,3 +133,5 @@
 .leaderboard>div{display:grid;grid-template-columns:28px 1fr auto;align-items:center;gap:8px;padding:10px;border-bottom:1px solid #2b313d}.leaderboard>div.me{background:#191f1a}.leaderboard>div b{color:#f47721}.leaderboard>div span{font-size:10px;font-weight:800}.leaderboard>div strong{font-size:10px}
 
 .roundProgress{height:4px;background:#222a35;border-radius:999px;overflow:hidden;margin:-5px 0 10px}.roundProgress i{display:block;height:100%;background:#2bd17e;border-radius:999px}
+
+.cloudBtns{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}.cloudBtns button{margin:0}.myLeagues{margin:12px 0}.myLeagues>b{display:block;font-size:9px;color:#9ca5b3;margin-bottom:6px}.myLeagues button{width:100%;display:flex;align-items:center;justify-content:space-between;text-align:left;background:#151922;border:1px solid #2b313d;margin:5px 0;padding:9px 10px}.myLeagues button.active{border-color:#f47721}.myLeagues small{color:#9ca5b3;font-size:8px}
