@@ -140,7 +140,7 @@ const rawPlayers=[
 {name:"Björn Merkx",number:24,team:"BMS Herlev",pos:"F",price:8,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
 {name:"Elias Nørgaard",number:35,team:"BMS Herlev",pos:"G",price:7,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
 {name:"Clement Hylleborg",number:70,team:"BMS Herlev",pos:"C",price:7.5,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
-{name:"Kalle Lynggaard Dyrholm",number:null,team:"BMS Herlev",pos:"F",price:7.5,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[],statsVerified:null},
+{name:"Kalle Lynggaard Dyrholm",number:null,team:"BMS Herlev",pos:"G",price:7.5,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[],statsVerified:null},
 {name:"Karl Altmann",number:null,team:"Gladsaxe Basketball",pos:"G",price:6,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
 {name:"Rasmus Blæsild",number:null,team:"Gladsaxe Basketball",pos:"F",price:7,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
 {name:"Gustav Blauenfeldt",number:null,team:"Gladsaxe Basketball",pos:"G",price:8,pts:0,reb:0,ast:0,stl:0,blk:0,to:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,form:[0,0,0]},
