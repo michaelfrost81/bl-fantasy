@@ -149,3 +149,5 @@
 .round .deadline{max-width:130px;line-height:1.25}.lockedBanner{line-height:1.35}
 
 .feedStatus{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:8px 0;padding:9px;border:1px solid #2b313d;border-radius:11px;background:#0f1319}.feedStatus div{min-width:0}.feedStatus b,.feedStatus span{display:block;font-size:9px}.feedStatus span{color:#9ca5b3;margin-top:3px}.feedStatus button{margin:0;white-space:nowrap}
+
+.feedStatus small{display:block;color:#f0a15f;font-size:8px;line-height:1.35;margin-top:4px}
