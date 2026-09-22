@@ -151,3 +151,5 @@
 .feedStatus{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:8px 0;padding:9px;border:1px solid #2b313d;border-radius:11px;background:#0f1319}.feedStatus div{min-width:0}.feedStatus b,.feedStatus span{display:block;font-size:9px}.feedStatus span{color:#9ca5b3;margin-top:3px}.feedStatus button{margin:0;white-space:nowrap}
 
 .feedStatus small{display:block;color:#f0a15f;font-size:8px;line-height:1.35;margin-top:4px}
+
+.leagueRankHead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:14px}.leagueRankHead h2{margin:0}.leagueToggle{display:flex;gap:4px;background:#0f1319;padding:3px;border-radius:10px}.leagueToggle button{font-size:9px;padding:6px 8px;border-radius:8px;background:transparent;color:#9ca5b3}.leagueToggle button.active{background:#f47721;color:#fff}
