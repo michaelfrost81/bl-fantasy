@@ -145,3 +145,5 @@
 .leagueManage{display:flex;justify-content:center;gap:6px;margin-top:7px}.leagueManage button{margin:0}.dangerText{color:#ff7676!important}
 
 .deadline{display:block;color:#9ca5b3;font-size:7px;margin-top:2px}.autoSubs{margin:6px 0 10px;padding:8px 10px;border:1px solid #24583f;border-radius:10px;background:#0e1915}.autoSubs b{display:block;color:#2bd17e;font-size:9px;margin-bottom:4px}.autoSubs span{display:block;color:#d6ddd9;font-size:9px;margin:2px 0}
+
+.round .deadline{max-width:130px;line-height:1.25}.lockedBanner{line-height:1.35}
