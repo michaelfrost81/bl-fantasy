@@ -1,0 +1,38 @@
+name: Sync Basketligaen stats
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bl-stats-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch latest boxscores
+        run: |
+          mkdir -p data
+          curl --fail --silent --show-error --retry 3 --max-time 90 "https://bl-fantasy-api.onrender.com/api/stats/feed?days=7" -o data/live-stats.new.json
+          jq -e '.ok == true and (.games | type == "array")' data/live-stats.new.json >/dev/null
+          jq -S . data/live-stats.new.json > data/live-stats.formatted.json
+          mv data/live-stats.formatted.json data/live-stats.json
+          rm -f data/live-stats.new.json
+      - name: Commit only when data changed
+        run: |
+          if git diff --quiet -- data/live-stats.json; then
+            echo "No new stats."
+            exit 0
+          fi
+          git config user.name "BL Fantasy Stats Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/live-stats.json
+          git commit -m "Auto-update Basketligaen stats"
+          git push
