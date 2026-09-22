@@ -143,3 +143,5 @@
 .profilePanel{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px;margin:0 0 8px;border:1px solid #2b313d;border-radius:13px;background:#10141b}.profilePanel div{min-width:0}.profilePanel b,.profilePanel span{display:block}.profilePanel span{font-size:9px;color:#9ca5b3;margin-top:3px}.profilePanel button{margin:0;white-space:nowrap}
 
 .leagueManage{display:flex;justify-content:center;gap:6px;margin-top:7px}.leagueManage button{margin:0}.dangerText{color:#ff7676!important}
+
+.deadline{display:block;color:#9ca5b3;font-size:7px;margin-top:2px}.autoSubs{margin:6px 0 10px;padding:8px 10px;border:1px solid #24583f;border-radius:10px;background:#0e1915}.autoSubs b{display:block;color:#2bd17e;font-size:9px;margin-bottom:4px}.autoSubs span{display:block;color:#d6ddd9;font-size:9px;margin:2px 0}
