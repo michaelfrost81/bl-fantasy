@@ -164,3 +164,4 @@
 
 /* v74 data health */
 .enginePanel small{line-height:1.35;color:#c5ccd6}.enginePanel .secondary{margin-top:4px}
+.gameCenterHead .dataStatus{display:block;margin-top:8px;font-size:14px;font-weight:700;color:#d6b86d}

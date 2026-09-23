@@ -1,0 +1,36 @@
+name: Sync FIBA game data
+
+on:
+  schedule:
+    - cron: "12,42 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bl-fiba-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch FIBA boxscores
+        run: node scripts/sync-fiba.mjs
+      - name: Publish changed game data
+        run: |
+          if git diff --quiet -- data/fiba-games.json; then
+            echo "No new game data."
+            exit 0
+          fi
+          git config user.name "BL Fantasy Stats Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/fiba-games.json
+          git commit -m "Update shared FIBA game data"
+          git pull --rebase origin main
+          git push origin HEAD:main
