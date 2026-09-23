@@ -161,3 +161,6 @@
 
 /* v68 transfers + prices */
 .transferPlanner{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:8px 0}.transferPlanner span{padding:8px;border:1px solid #2b313d;border-radius:11px;background:#0f1319;color:#9ca5b3;font-size:8px;text-align:center}.transferPlanner b{display:block;color:#f7f5f1;font-size:13px;margin-bottom:2px}.priceHistory{border:1px solid #2b313d;border-radius:12px;overflow:hidden}.priceHistory div{display:flex;justify-content:space-between;padding:8px 10px;border-bottom:1px solid #2b313d}.priceHistory div:last-child{border-bottom:0}.priceHistory span{color:#9ca5b3;font-size:9px}.priceHistory b{font-size:9px}
+
+/* v74 data health */
+.enginePanel small{line-height:1.35;color:#c5ccd6}.enginePanel .secondary{margin-top:4px}
