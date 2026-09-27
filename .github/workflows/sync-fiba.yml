@@ -1,6 +1,10 @@
 name: Sync FIBA game data
 
 on:
+  push:
+    paths:
+      - scripts/sync-fiba.mjs
+      - .github/workflows/sync-fiba.yml
   schedule:
     - cron: "12,42 * * * *"
   workflow_dispatch:
